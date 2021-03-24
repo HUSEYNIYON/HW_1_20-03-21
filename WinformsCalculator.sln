@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinformsCalculator", "WinformsCalculator\WinformsCalculator.csproj", "{474BAA0C-D71A-4F1D-8DF5-164A14DAC8FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{474BAA0C-D71A-4F1D-8DF5-164A14DAC8FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{474BAA0C-D71A-4F1D-8DF5-164A14DAC8FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{474BAA0C-D71A-4F1D-8DF5-164A14DAC8FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{474BAA0C-D71A-4F1D-8DF5-164A14DAC8FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98197765-B3EA-482B-A318-695EDA629846}
+	EndGlobalSection
+EndGlobal
