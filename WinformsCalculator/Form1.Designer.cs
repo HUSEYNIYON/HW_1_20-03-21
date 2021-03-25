@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("> Standard");
-            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("> Scientific");
-            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("> Programmer");
-            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("> DateTime");
-            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("> Currency");
+            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("> Standard");
+            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("> Scientific");
+            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("> Programmer");
+            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("> DateTime");
+            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("> Currency");
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -559,25 +559,25 @@
             this.treeView1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
             this.treeView1.Location = new System.Drawing.Point(12, 67);
             this.treeView1.Name = "treeView1";
-            treeNode6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            treeNode6.Checked = true;
-            treeNode6.ForeColor = System.Drawing.Color.White;
-            treeNode6.Name = "Узел0";
-            treeNode6.Text = "> Standard";
-            treeNode7.Name = "Узел1";
-            treeNode7.Text = "> Scientific";
-            treeNode8.Name = "Узел2";
-            treeNode8.Text = "> Programmer";
-            treeNode9.Name = "Узел3";
-            treeNode9.Text = "> DateTime";
-            treeNode10.Name = "Узел4";
-            treeNode10.Text = "> Currency";
+            treeNode16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            treeNode16.Checked = true;
+            treeNode16.ForeColor = System.Drawing.Color.White;
+            treeNode16.Name = "Узел0";
+            treeNode16.Text = "> Standard";
+            treeNode17.Name = "Узел1";
+            treeNode17.Text = "> Scientific";
+            treeNode18.Name = "Узел2";
+            treeNode18.Text = "> Programmer";
+            treeNode19.Name = "Узел3";
+            treeNode19.Text = "> DateTime";
+            treeNode20.Name = "Узел4";
+            treeNode20.Text = "> Currency";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode6,
-            treeNode7,
-            treeNode8,
-            treeNode9,
-            treeNode10});
+            treeNode16,
+            treeNode17,
+            treeNode18,
+            treeNode19,
+            treeNode20});
             this.treeView1.Size = new System.Drawing.Size(198, 237);
             this.treeView1.TabIndex = 36;
             this.treeView1.Visible = false;
@@ -587,7 +587,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(6, 27);
+            this.label3.Location = new System.Drawing.Point(6, 29);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(31, 31);
             this.label3.TabIndex = 37;
@@ -638,8 +638,10 @@
             this.Controls.Add(this.button2);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.HelpButton = true;
             this.MinimumSize = new System.Drawing.Size(300, 300);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AlifCalculator";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
