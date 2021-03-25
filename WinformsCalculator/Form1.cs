@@ -169,5 +169,25 @@ namespace WinformsCalculator
         {
             textBox1.Text = (double.Parse(textBox1.Text)  * (-1)).ToString();
         }
+
+        private void button25_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button24_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
+        {
+            treeView1.Visible = false; 
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            treeView1.Visible = true;
+        }
     }
 }
