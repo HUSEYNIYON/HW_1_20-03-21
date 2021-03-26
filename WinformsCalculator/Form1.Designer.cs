@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("> Standard");
-            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("> Scientific");
-            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("> Programmer");
-            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("> DateTime");
-            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("> Currency");
+            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("> Standard");
+            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("> Scientific");
+            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("> Programmer");
+            System.Windows.Forms.TreeNode treeNode24 = new System.Windows.Forms.TreeNode("> DateTime");
+            System.Windows.Forms.TreeNode treeNode25 = new System.Windows.Forms.TreeNode("> Currency");
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -378,7 +378,7 @@
             this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button19.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button19.ForeColor = System.Drawing.Color.White;
-            this.button19.Location = new System.Drawing.Point(303, -4);
+            this.button19.Location = new System.Drawing.Point(304, -3);
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(31, 33);
             this.button19.TabIndex = 23;
@@ -559,25 +559,25 @@
             this.treeView1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
             this.treeView1.Location = new System.Drawing.Point(12, 67);
             this.treeView1.Name = "treeView1";
-            treeNode16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            treeNode16.Checked = true;
-            treeNode16.ForeColor = System.Drawing.Color.White;
-            treeNode16.Name = "Узел0";
-            treeNode16.Text = "> Standard";
-            treeNode17.Name = "Узел1";
-            treeNode17.Text = "> Scientific";
-            treeNode18.Name = "Узел2";
-            treeNode18.Text = "> Programmer";
-            treeNode19.Name = "Узел3";
-            treeNode19.Text = "> DateTime";
-            treeNode20.Name = "Узел4";
-            treeNode20.Text = "> Currency";
+            treeNode21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            treeNode21.Checked = true;
+            treeNode21.ForeColor = System.Drawing.Color.White;
+            treeNode21.Name = "Узел0";
+            treeNode21.Text = "> Standard";
+            treeNode22.Name = "Узел1";
+            treeNode22.Text = "> Scientific";
+            treeNode23.Name = "Узел2";
+            treeNode23.Text = "> Programmer";
+            treeNode24.Name = "Узел3";
+            treeNode24.Text = "> DateTime";
+            treeNode25.Name = "Узел4";
+            treeNode25.Text = "> Currency";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode16,
-            treeNode17,
-            treeNode18,
-            treeNode19,
-            treeNode20});
+            treeNode21,
+            treeNode22,
+            treeNode23,
+            treeNode24,
+            treeNode25});
             this.treeView1.Size = new System.Drawing.Size(198, 237);
             this.treeView1.TabIndex = 36;
             this.treeView1.Visible = false;
